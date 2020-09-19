@@ -1,1 +1,1 @@
-val lambda: (Int, Int) -> Int = { x, y -> if (x > y) x else y }
+val lambda: (Int, Int) -> Int = ::maxOf
