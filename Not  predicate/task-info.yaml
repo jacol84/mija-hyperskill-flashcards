@@ -5,6 +5,15 @@ files:
   visible: true
   text: 'val notPredicate: (Char) -> Boolean = TODO("Provide implementation")'
   learner_created: false
+- name: src/File.kt
+  visible: true
+  learner_created: true
+- name: src/AAA.kt
+  visible: true
+  learner_created: true
+- name: src/main.txt
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/6163
 status: Solved
 feedback:
