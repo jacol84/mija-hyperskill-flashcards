@@ -15,9 +15,21 @@ files:
   visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/learn/step/6163
-status: Solved
+status: Failed
 feedback:
-  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/6163">JetBrains
-    Academy</a></html>
-  time: Sat, 19 Sep 2020 06:50:06 UTC
+  message: |
+    Compilation error
+    main.kt:7:37: error: unresolved reference: notPredicate
+        val result1: String = x1.filter(notPredicate)
+                                        ^
+    main.kt:8:37: error: unresolved reference: notPredicate
+        val result2: String = x2.filter(notPredicate)
+                                        ^
+    main.kt:11:37: error: unresolved reference: notPredicate
+        val result3: String = x1.filter(notPredicate)
+                                        ^
+    main.kt:12:37: error: unresolved reference: notPredicate
+        val result4: String = x2.filter(notPredicate)
+                                        ^
+  time: Sat, 19 Sep 2020 07:28:45 UTC
 record: -1
