@@ -1,1 +1,1 @@
-val lambda: (Int, Int) -> Int = TODO("Provide implementation")
+val lambda: (Int, Int) -> Int = { x, y -> if (x > y) x else y }
