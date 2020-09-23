@@ -1,3 +1,4 @@
+import java.io.File
 import java.util.*
 
 fun main() {
@@ -14,5 +15,6 @@ fun main() {
             break
         }
     }
+    File("aa").writeText()
     print(result)
 }
