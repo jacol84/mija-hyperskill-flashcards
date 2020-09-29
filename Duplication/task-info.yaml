@@ -12,6 +12,9 @@ files:
 - name: src/ZZZ.kt
   visible: true
   learner_created: true
+- name: src/YYY.kt
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/9717
 status: Solved
 feedback:
